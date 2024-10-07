@@ -2,17 +2,11 @@
 class House {
     doors: number;
     windows: number;
-    bathrooms: number;
-    bedrooms: number;
-    pets: boolean;
 
     // Constructor //
-    constructor(doors: number, windows: number, bathrooms: number, bedrooms: number, pets: boolean) {
+    constructor(doors: number, windows: number) {
         this.doors = doors;
         this.windows = windows;
-        this.bathrooms =  bathrooms;
-        this.bedrooms = bedrooms;
-        this.pets = pets;
     }
         // Methods //
         getDoors(): number {
@@ -26,11 +20,18 @@ class House {
 }
 
 // Objects //
-const House_1 = new House(3,10,2,3,true);
-const House_2 = new House(4,12,3,4,false);
+const House_1 = new House(3,10);
+const House_2 = new House(4,12);
 
 console.log(House_1.getDoors());
 console.log(House_1.getWindows());
+
+
+
+
+
+
+
 
 
 

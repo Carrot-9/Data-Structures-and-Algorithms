@@ -1,0 +1,1 @@
+// There arent Vectors in Typescript by default but they are essentially just mutable arrays //

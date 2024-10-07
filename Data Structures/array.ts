@@ -1,4 +1,1 @@
-function foo(): void{
-    
-
-}
+let my_array: Array<string> = ["one", "two", "three"];
